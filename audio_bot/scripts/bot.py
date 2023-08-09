@@ -15,7 +15,7 @@ HELP = 'I can help you with audio (🎙️ ➞ 📃 or 📃 ➞ 🎙️):\n' \
        '\nIf you send a voice message, the bot will convert it to text'\
        '\nIf you send an audio file or video, the bot will convert it to text'\
        '\nIf you send a text, the bot will convert it to an audio file ️'
-text_of_the_previous_message = ' '
+text_of_the_previous_message = ''
 
 
 if __name__ == '__main__':
