@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "audio-bot2"
+name = "audio-bot"
 version = "0.1.0"
 description = ""
 authors = ["EgorGod21 <godzun.ea@mail.ru>"]
 readme = "README.md"
-packages = [{include = "audio_bot2"}]
+packages = [{include = "audio_bot"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
