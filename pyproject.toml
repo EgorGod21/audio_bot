@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "audio-bot2"
+version = "0.1.0"
+description = ""
+authors = ["EgorGod21 <godzun.ea@mail.ru>"]
+readme = "README.md"
+packages = [{include = "audio_bot2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+telebot = "^0.0.5"
+gtts = "^2.3.2"
+langdetect = "^1.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
